@@ -109,7 +109,9 @@ public abstract class Database {
             ps.setString(1, String.valueOf(amount));
             ps.executeUpdate();
 
-            plugin.getMapPointsExpansion().setMap(playerUUID, amount);
+            if(plugin.getMapPointsExpansion() != null)
+                plugin.getMapPointsExpansion().setMap(playerUUID, amount);
+            
             return "worked";
         } catch (SQLException ex) {
             plugin.getLogger().log(Level.SEVERE, Errors.sqlConnectionExecute(), ex);

@@ -1,4 +1,4 @@
-[![MIT](https://img.shields.io/github/license/captainbboy/FactionMapPoints?&logo=github)](LICENSE)
+[![MIT](https://img.shields.io/github/license/captainbboy/FactionsMapPoints?&logo=github)](LICENSE)
 [![Join us on Discord](https://img.shields.io/discord/874046180005412885.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/GjfaD3weH9)
 
 # FactionsMapPoints

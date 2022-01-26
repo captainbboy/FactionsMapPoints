@@ -1,8 +1,7 @@
 name: MapPoints
 version: '${project.version}'
 main: com.captainbboy.factionmappoints.FactionMapPoints
-depend: [ Factions ]
-softdepend: [ PlaceholderAPI ]
+depend: [ Factions, PlaceholderAPI ]
 authors: [ captain_bboy ]
 description: A 1.8.8 Spigot plugin that links with FactionsUUID to add map points.
 commands:

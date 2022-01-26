@@ -111,7 +111,7 @@ public abstract class Database {
 
             if(plugin.getMapPointsExpansion() != null)
                 plugin.getMapPointsExpansion().setMap(playerUUID, amount);
-            
+
             return "worked";
         } catch (SQLException ex) {
             plugin.getLogger().log(Level.SEVERE, Errors.sqlConnectionExecute(), ex);
